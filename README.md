@@ -40,7 +40,11 @@ Part 2: Teaching Machines to Paint, Write, Compose and Play
 ## Getting started
 
 To get started, first install the required libraries inside a virtual environment:
-
+From terminal
+pip install virtualenvwrapper-win
+mkvirtualenv generative
+workon generative  # to go out deactivate
+python -m ipykernel install --user --name generative  # run in jupyterNB
 `pip install -r requirements.txt`
  
 
